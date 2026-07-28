@@ -8,7 +8,7 @@ _Developed an interactive Power BI dashboard to monitor sales, profit, quantity,
 
 
 ##  Overview
-This is a Power BI dashboard project made to study the yearly sales, profit, and quantity performance of a retail megastore. The dashboard covers data from **July 2014 to May 2018** and shows results by category, sub-category, state, and year. This project was built to practice and show my skills in **Power Query** and **Power BI**.
+A Power BI dashboard analyzing a megastore's yearly sales, profit, and quantity (July 2014 – May 2018), built to practice **Power Query** and **Power BI** skills.
 
 ---
 
@@ -24,7 +24,7 @@ This dashboard helps answer these questions in one simple view, so the managemen
 ---
 
 ##  Dataset
-- **Source:** Retail/Megastore sales dataset (order-level sales data)
+- **Source:** 
 - **Time period:** 07-01-2014 to 05-01-2018
 - **Fields used:** Order Date, Category, Sub-Category, Segment, Ship Mode, State, Sales, Profit, Quantity
 
