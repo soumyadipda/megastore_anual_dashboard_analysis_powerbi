@@ -1,5 +1,9 @@
 # 🛒 Megastore Annual Dashboard – Power BI Project
 
+![Excel](https://img.shields.io/badge/Tool-PowerBI-FFCE3C?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Level](https://img.shields.io/badge/Level-Beginner-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+
 _Developed an interactive Power BI dashboard to monitor sales, profit, quantity, top-performing states, and category-wise performance for strategic business insights.._
 
 
