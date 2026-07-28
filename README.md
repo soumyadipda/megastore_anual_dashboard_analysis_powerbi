@@ -1,10 +1,9 @@
 # 🛒 Megastore Annual Dashboard – Power BI Project
+_Developed an interactive Power BI dashboard to monitor sales, profit, quantity, top-performing states, and category-wise performance for strategic business insights.._
 
 ![Excel](https://img.shields.io/badge/Tool-PowerBI-FFCE3C?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-
-_Developed an interactive Power BI dashboard to monitor sales, profit, quantity, top-performing states, and category-wise performance for strategic business insights.._
 
 
 ##  Overview
@@ -24,7 +23,7 @@ This dashboard helps answer these questions in one simple view, so the managemen
 ---
 
 ##  Dataset
-- **Source:** 
+- **Source:** - <a href="https://github.com/soumyadipda/megastore_anual_dashboard_analysis_powerbi/blob/main/megastore_raw_data.xlsx">Dataset</a> 👈
 - **Time period:** 07-01-2014 to 05-01-2018
 - **Fields used:** Order Date, Category, Sub-Category, Segment, Ship Mode, State, Sales, Profit, Quantity
 
@@ -37,64 +36,41 @@ This dashboard helps answer these questions in one simple view, so the managemen
 ---
 
 ##  Exploratory Data Analysis (EDA)
-- **Gross Profit (Min):** Lowest recorded profit value found among the sub-categories/orders during data checks
-- **Profit Margin (Min):** Some orders/sub-categories showed very thin or near-zero profit margins
-- **Outliers Identified:** A few orders had unusually high sales but very low or negative profit, flagged as outliers
-- **Correlation Analysis:** Sales and Profit generally move together, but higher sales did not always mean higher profit — some high-sales sub-categories had low profit (e.g., Copiers has fewer units but high profit per unit, while Fasteners has low profit)
+- *Gross Profit (Min):* Some orders had very low profit
+- *Profit Margin (Min):* Near-zero margins in a few sub-categories
+- *Outliers Identified:* High sales but low/negative profit orders
+- *Correlation:* Sales and profit mostly move together, but not always (e.g., Copiers: low sales, high profit)
 
 ---
 
-##  Research Questions & Key Findings
+##  Key Findings
 
-1. **Which category makes the most profit?**
-   - Office Supplies leads in profit ($0.24M), followed by Technology ($0.22M) and Furniture ($0.14M)
-
-2. **Which category has the highest sales?**
-   - Technology has the highest sales ($0.84M), followed by Furniture ($0.74M) and Office Supplies ($0.72M)
-   - Interesting finding: Office Supplies has the lowest sales but the highest profit, meaning it has better profit margins
-
-3. **Which states bring the most profit?**
-   - Top 5: New York ($84K), California ($84K), Texas ($48K), Washington ($34K), Pennsylvania ($28K)
-
-4. **Which states bring the least profit?**
-   - Bottom 5: Maine ($454.49), South Dakota ($394.83), West Virginia ($339.83), North Dakota ($230.15), Wyoming ($100.20)
-
-5. **How did the business grow over the years?**
-   - Sales: 2014 ($0.48M) → 2015 ($0.47M) → 2016 ($0.61M) → 2017 ($0.73M)
-   - Profit: 2014 ($0.11M) → 2015 ($0.13M) → 2016 ($0.16M) → 2017 ($0.20M)
-   - Both sales and profit grew steadily each year, with the biggest jump between 2015 and 2016
-
-6. **Which sub-categories perform best?**
-   - Copiers give the highest profit per sale ($55,617.82 profit on $1,49,528.03 sales, only 234 units) — very high margin
-   - Binders have the highest sales quantity (5,974 units) and strong profit ($1,07,242.76)
-   - Fasteners and Labels have low profit and low sales, showing weak performance
-
+- *Profit by category:* Office Supplies $0.24M > Technology $0.22M > Furniture $0.14M
+- *Sales by category:* Technology $0.84M > Furniture $0.74M > Office Supplies $0.72M
+- *Top states (profit):* New York $84K, California $84K, Texas $48K, Washington $34K, Pennsylvania $28K
+- *Bottom states (profit):* Maine $454, South Dakota $395, West Virginia $340, North Dakota $230, Wyoming $100
+- *Yearly growth:* Sales grew $0.48M → $0.73M (2014–2017); Profit grew $0.11M → $0.20M
+- *Best sub-category:* Copiers (high profit, low units); *weakest:* Fasteners, Labels
 ---
 
 ##  Dashboard (Power BI Dashboard shows:)
 
-The dashboard has filters at the top (Category, Ship Mode, Segment, Sub-Category, and a Date range slider) and 3 KPI cards showing **Total Profit ($598.66K)**, **Total Sales ($2.30M)**, and **Total Quantity (38K)**.
-
-Below the filters, the dashboard has these visuals:
-- **Category by Profit** – bar chart comparing profit of Office Supplies, Technology, and Furniture
-- **Category by Sales** – bar chart comparing sales of the same three categories
-- **Top 5 State by Profit** – horizontal bar chart of the 5 best-performing states
-- **Bottom 5 State by Profit** – horizontal bar chart of the 5 weakest-performing states
-- **Profit and Sales by Year** – combo chart (bar + line) showing yearly trend from 2014 to 2017
-- **Sub-Category Table** – detailed table showing Sum of Profit, Sum of Sales, and Sum of Quantity for every sub-category (Accessories, Appliances, Art, Binders, Bookcases, Chairs, Copiers, Envelopes, Fasteners, Furnishings, Labels, etc.)
+**The dashboard has**
+- ***Filters at the top***➡️ --- (Category, Ship Mode, Segment, Sub-Category, and a Date range slider)
+- ***KPI card***⬇️
+- 1️⃣*Total Profit:* **($598.66K)** 
+- 2️⃣*Total Sales:* **($2.30M)**
+- 3️⃣*Total Quantity:* **(38K)**
 
 ![Megastore Annual Dashboard](https://github.com/soumyadipda/megastore_anual_dashboard_analysis_powerbi/blob/main/dashboard.jpg)
 
 ---
 
 ##  Final Recommendations
-- Focus more marketing and stock on **Office Supplies** since it gives the best profit margin
-- Investigate why **Technology** has high sales but lower profit compared to Office Supplies — check discounts or shipping costs
-- Give special attention to **top states** (New York, California, Texas) for repeat business and loyalty offers
-- Review pricing and cost in **low-profit states** (Maine, South Dakota, West Virginia, North Dakota, Wyoming) to reduce losses
-- Promote high-margin sub-categories like **Copiers** more, and review pricing for low-margin items like **Fasteners** and **Labels**
-- Continue the yearly growth trend by keeping the strategies that worked well in 2016–2017
-
+- Push Office Supplies (best margin)
+- Check why Technology has high sales but lower profit
+- Reward top states; review pricing in low-profit states
+- Promote high-margin items (Copiers); rework low-margin ones (Fasteners, Labels)
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
