@@ -1,5 +1,8 @@
 # 🛒 Megastore Annual Dashboard – Power BI Project
 
+_Developed an interactive Power BI dashboard to monitor sales, profit, quantity, top-performing states, and category-wise performance for strategic business insights.._
+
+
 ##  Overview
 This is a Power BI dashboard project made to study the yearly sales, profit, and quantity performance of a retail megastore. The dashboard covers data from **July 2014 to May 2018** and shows results by category, sub-category, state, and year. This project was built to practice and show my skills in **Power Query** and **Power BI**.
 
@@ -76,7 +79,7 @@ Below the filters, the dashboard has these visuals:
 - **Profit and Sales by Year** – combo chart (bar + line) showing yearly trend from 2014 to 2017
 - **Sub-Category Table** – detailed table showing Sum of Profit, Sum of Sales, and Sum of Quantity for every sub-category (Accessories, Appliances, Art, Binders, Bookcases, Chairs, Copiers, Envelopes, Fasteners, Furnishings, Labels, etc.)
 
-*(Screenshot of the dashboard should be added here, e.g. `![Dashboard](dashboard_screenshot.png)`)*
+![Megastore Annual Dashboard](https://github.com/soumyadipda/megastore_anual_dashboard_analysis_powerbi/blob/main/dashboard.jpg)
 
 ---
 
@@ -89,10 +92,12 @@ Below the filters, the dashboard has these visuals:
 - Continue the yearly growth trend by keeping the strategies that worked well in 2016–2017
 
 ---
+<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 **Soumyadip Dhara**  
 Data Analyst  
- Email: dips657812gnail.com
+ 📧 Email: dips65781@gmail.com
+ 
 🔗 [LinkedIn](https://www.linkedin.com/in/soumyadipdhara1/)  
-🔗 [Portfolio](https://github.com/soumyadipda)
-*This project was created for practicing and showcasing skills in Power Query and Power BI dashboard building.*
+
+
