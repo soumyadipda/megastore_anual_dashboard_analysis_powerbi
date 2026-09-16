@@ -76,7 +76,6 @@ This dashboard helps answer these questions in one simple view, so the managemen
 
 **Soumyadip Dhara**  
 Data Analyst  
- 📧 Email: dips65781@gmail.com
  
 🔗 [LinkedIn](https://www.linkedin.com/in/soumyadipdhara1/)  
 
